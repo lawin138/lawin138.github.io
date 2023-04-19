@@ -136,65 +136,64 @@ table {
     background-color: rgb(243, 249, 226);
 }
 .banner{
+    display:relative;
     max-width:1000px;
     height:350px;
     background:linear-gradient(45deg, rgb(173, 197, 174), rgba(33, 91, 115, 0.805));
     z-index: 1;
-    text-align: center;
-    vertical-align: middle;
 }
-.banner .banner-p{
-    display:block;
+.banner .banner-p1{
+    display:absolute;
     padding-left: 250px;
     padding-top: 180px;
-    max-width:500px;
+    max-width:682px;
     height:42px;
     font-size: 40px;
     color:rgba(2, 2, 66, 0.784);
     font-weight:bold;
     /*-webkit-text-stroke: 0.3px #fff;*/
-    z-index: 20;
+    z-index:10;
 }
 @media(max-width:768px){
-    .banner-p{
-        padding-left: 50px;
-        font-size: 25px;
-        padding-top: 130px;
-        max-width:500px;
+    .banner-p1{
+        max-width:375;
+        height:24px;
+        font-size: 22px;
+        padding-left:none;
+        padding-top: 180px;
+
     }
 }
 @media(max-width:500px){
-    .banner-p{
-        padding-left:20px;
+    .banner-p1{
+        padding-left:none;
         font-size: 18px;
         padding-top:80px;
-        max-width:300px;
+        max-width:310px;
     }
 }
-.banner .banner-p1{
-    display:block;
+.banner .banner-p2{
+    display:absolute;
     font-size: 22px;
     color:#ffffff87;
     font-weight:bold;
-    max-width:500px;
+    max-width:200px;
     height:24px;
-    padding-left:250px;
+    padding-left:430px;
     padding-top:0px;
     z-index: 50;
 }
 @media(max-width:768px){
-    .banner-p1{
-        padding-left:50px;
+    .banner-p2{
         font-size: 18px;
-        width:300px;
+        max-width:165px;
+        height:20px;
+        padding-left: none;
     }
 }
 @media(max-width:500px){
-    .banner-p1{
-        padding-left: 50px;
-        font-size:14px ;
-        width:250px;
-        
+    .banner-p2{
+        display:none;
     }
 }
 .menu-bar {
