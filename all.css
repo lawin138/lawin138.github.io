@@ -132,23 +132,21 @@ table {
     margin:0 auto;
     max-width:1000px;
     height:1000px;
-    border:1px solid black;
+    box-shadow: 0.3px 0.3px 5px 0.3px rgba(0, 0, 0, 0.5);
     background-color: rgb(243, 249, 226);
 }
 .banner{
-    display:relative;
     max-width:1000px;
     height:350px;
     background:linear-gradient(45deg, rgb(173, 197, 174), rgba(33, 91, 115, 0.805));
-    z-index: 1;
+    z-index: 5;
 }
-.banner .banner-p1{
-    display:absolute;
-    padding-left: 250px;
-    padding-top: 180px;
-    max-width:682px;
+.banner-p1{
+    padding-left: 50px;
+    padding-top: 10px;
+    width:682px;
     height:42px;
-    font-size: 40px;
+    font-size: 30px;
     color:rgba(1, 53, 66, 0.751);
     font-weight:bold;
     /*-webkit-text-stroke: 0.3px #fff;*/
@@ -156,8 +154,8 @@ table {
 }
 @media(max-width:768px){
     .banner-p1{
-        max-width:375;
-        height:24px;
+        width:37%;
+        height:16px;
         font-size: 22px;
         padding-left:none;
         padding-top: 180px;
@@ -169,24 +167,22 @@ table {
         padding-left:none;
         font-size: 18px;
         padding-top:80px;
-        max-width:310px;
+        width:31%;
     }
 }
-.banner .banner-p2{
-    display:absolute;
+.banner-p2{
     font-size: 20px;
     color:#ffffff;
-    
-    max-width:200px;
+    width:200px;
     height:24px;
     padding-left:430px;
     padding-top:0px;
-    z-index: 50;
+    z-index:50;
 }
 @media(max-width:768px){
     .banner-p2{
         font-size: 18px;
-        max-width:165px;
+        width:82%;
         height:20px;
         padding-left: none;
     }
@@ -201,7 +197,7 @@ table {
     height: 30px;
     text-align: center;
     background-color: #a8a5a5;
-    
+    margin-top:250px;
 }
 
 .menu-bar ul {
