@@ -138,66 +138,15 @@ table {
 .banner{
     max-width:1000px;
     height:350px;
-    background:linear-gradient(45deg, rgb(173, 197, 174), rgba(33, 91, 115, 0.805));
+    margin:0 auto;
     z-index: 5;
 }
-.banner-p1{
-    padding-left: 50px;
-    padding-top: 10px;
-    width:682px;
-    height:42px;
-    font-size: 30px;
-    color:rgba(1, 53, 66, 0.751);
-    font-weight:bold;
-    /*-webkit-text-stroke: 0.3px #fff;*/
-    z-index:10;
-}
-@media(max-width:768px){
-    .banner-p1{
-        width:37%;
-        height:16px;
-        font-size: 22px;
-        padding-left:none;
-        padding-top: 180px;
 
-    }
-}
-@media(max-width:500px){
-    .banner-p1{
-        padding-left:none;
-        font-size: 18px;
-        padding-top:80px;
-        width:31%;
-    }
-}
-.banner-p2{
-    font-size: 20px;
-    color:#ffffff;
-    width:200px;
-    height:24px;
-    padding-left:430px;
-    padding-top:0px;
-    z-index:50;
-}
-@media(max-width:768px){
-    .banner-p2{
-        font-size: 18px;
-        width:82%;
-        height:20px;
-        padding-left: none;
-    }
-}
-@media(max-width:500px){
-    .banner-p2{
-        display:none;
-    }
-}
 .menu-bar {
     max-width: 1000px;
     height: 30px;
     text-align: center;
     background-color: #a8a5a5;
-    margin-top:250px;
 }
 
 .menu-bar ul {
