@@ -59,12 +59,13 @@ body {
     padding: 0;
 }
 :root{
-     --primary-color:#d1d1d1;
-     --grey-color:#d6c0a1;
+     --primary-color:#e3e2e2;
+     --grey-color:#dbd895;
      --tint-color:#fff;
      --shades-color:#000;
      --accent-color:#fa0598;
      --font-color:#372601;
+     --aside-color:#cdcab0;
 }
 .container{
     max-width:1400px;
@@ -93,7 +94,7 @@ body {
     display:grid;
     grid-column:1/2;
     grid-row: 2/3;
-    background-color: #cbcabf;
+    background-color: var(--aside-color);
 }
 .container .content{
     display:grid;
@@ -144,7 +145,7 @@ li p{
     text-align: center;
     width:100%;
     height:auto;
-    background-color: var(--grey-color);
+    background-color:var(--aside-color);
     position:absolute;
     top:0;
     left:0;
@@ -163,7 +164,7 @@ li p{
 .menu ul li{
     padding:5px;
     margin-left:10px;
-    background-color:#b1af7d;
+    background-color:var(--grey-color);
     width:100px;
     border-radius: 5px;
     box-shadow:0px 0px 3px 2px #37260180;
@@ -172,5 +173,5 @@ li p{
 .menu ul li a{
     font-size: 14px;
     text-decoration: none;
-    color:#000;
+    color:var(--shades-color);
 }
